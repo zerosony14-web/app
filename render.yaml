@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: afuona-api
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
+    envVars:
+      - key: PORT
+        value: 8000
+    autoDeploy: true
+    region: frankfurt # یا هر منطقه دیگه‌ای که می‌خوای
+    branch: main
+    rootDir: .
