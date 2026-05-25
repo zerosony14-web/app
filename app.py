@@ -33,7 +33,7 @@ INDEX_TEMPLATE = """
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AFUONA API</title>
+    <title>CAPTAIN TERMIN API</title>
     <style>
         * {
             margin: 0;
@@ -140,13 +140,13 @@ INDEX_TEMPLATE = """
         <div class="logo">CAPTAIN</div>
         <div class="name">𝗔𝗣𝗜</div>
         
-        <a href="https://t.me/afuonax" target="_blank" class="telegram-link">
+        <a href="https://t.me/CAPTTERMIN" target="_blank" class="telegram-link">
             <svg class="telegram-icon" viewBox="0 0 24 24">
                 <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.18-.357.287-.6.287l.21-3.07 5.58-5.05c.24-.21-.054-.33-.37-.12l-6.9 4.35-2.97-.99c-.64-.2-.66-.64.14-.96l11.64-4.47c.54-.2 1.01.13.83.96z"/>
             </svg>
         </a>
         
-        <div class="footer">© 2026 AFUONA</div>
+        <div class="footer">© 2026 CAPTAIN TERMIN</div>
     </div>
 </body>
 </html>
@@ -812,7 +812,7 @@ def internal_error(error):
 
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 8000))
-    print(" AFUONA API -  Payment Gateway 🔥")
+    print(" CAPTAIN TERMIN API -  Payment Gateway 🔥")
     print("=" * 60)
     print(f"🚀 Running on port: {port}")
     print(f"📱 Telegram: https://t.me/afuonax")
