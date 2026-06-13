@@ -811,7 +811,7 @@ def internal_error(error):
     return jsonify({"error": "Internal server error"}), 500
 
 if __name__ == '__main__':
-    port = int(os.environ.get('PORT', 8000))
+    port = int(os.environ.get('PORT', 8998))
     print(" CAPTAIN TERMIN API -  Payment Gateway 🔥")
     print("=" * 60)
     print(f"🚀 Running on port: {port}")
